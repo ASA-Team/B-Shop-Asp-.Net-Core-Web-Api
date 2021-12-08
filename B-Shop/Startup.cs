@@ -46,6 +46,7 @@ namespace B_Shop
                 endpoints.MapControllers();
             });
             //app.UseHttpsRedirection();
+
             app.UseSwagger();
             app.UseSwaggerUI(c =>
             {
